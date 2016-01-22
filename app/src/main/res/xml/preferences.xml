@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<EditTextPreference-->
+        <!--android:key="pref_ip"-->
+        <!--android:title="IP Address">-->
+
+    <!--</EditTextPreference>-->
+
+    <!--<CheckBoxPreference-->
+        <!--android:key="firstrun"-->
+        <!--android:defaultValue="true"-->
+        <!--android:title="First-run">-->
+    <!--</CheckBoxPreference>-->
+
+    <!--<CheckBoxPreference-->
+        <!--android:key="info_submitted"-->
+        <!--android:defaultValue="false"-->
+        <!--android:title="Info Submitted">-->
+    <!--</CheckBoxPreference>-->
+
+    <!--<CheckBoxPreference-->
+        <!--android:key="activated"-->
+        <!--android:defaultValue="false"-->
+        <!--android:title="Activated">-->
+    <!--</CheckBoxPreference>-->
+
+    <!--<CheckBoxPreference-->
+        <!--android:key="activated_confirmed"-->
+        <!--android:defaultValue="false"-->
+        <!--android:title="Activated Confirmed">-->
+    <!--</CheckBoxPreference>-->
+
+    <EditTextPreference
+        android:key="pin_code"
+        android:password="true"
+        android:title="PIN Code"
+        android:defaultValue=""
+        android:maxLength="4">
+    </EditTextPreference>
+
+</PreferenceScreen>
